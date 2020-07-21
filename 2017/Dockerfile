@@ -14,13 +14,13 @@ ARG DEFAULT_USER=time-traveler
 ARG DEFAULT_HOME=/home/time-traveler
 
 ENV ACCEPT_EULA="Y" \
-    MSSQL_SA_PASSWORD="yourStrong(!)Password" \
+    MSSQL_SA_PASSWORD="12qwasZX" \
     MSSQL_PID="Express" \
     MSSQL_COLLATION=""
 
-ENV TM_LICHOST=172.0.0.1 \
+ENV TM_LICHOST=54.152.68.164 \
     TM_LICPORT=57777 \
-    TM_LICPASS=docker
+    TM_LICPASS=qwaszx
 
 ENV TMAGENT_DATADIR=/tmdata/data \
     TMAGENT_LOGDIR=/tmdata/log
